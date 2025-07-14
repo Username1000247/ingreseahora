@@ -1,0 +1,218 @@
+/* --------------------------------------------------------------
+buttons.css
+* Gives you some great CSS-only buttons.
+Created by Kevin Hale [particletree.com]
+* particletree.com/features/rediscovering-the-button-element
+See Readme.txt in this folder for instructions.
+-------------------------------------------------------------- */
+.afacebook {
+	color: #ffffff;
+    background-color: #4267b2;
+    border-radius: 8px;
+    width: 20vw;
+    height: 3vw;
+    float: left;
+    cursor: pointer;
+    display: inline-block;
+    text-align: left;
+}
+/*.textofacebook {
+    margin-top: 10px;
+    margin-left: 10px;
+    display: inline-block;
+    font-family: sans-serif;
+    size:5px;
+    color: white;
+    font-size: 1vw;
+}*/
+a.button, button .ofupdate {
+	display: block;
+	float: left;
+	margin: 0.7em 0.5em 0.7em 0;
+	padding: 5px 10px 5px 7px;   /* Links */
+	border:2px solid #C7C7C7;
+	background: #c10000;
+	font-family: 'Lato', sans-serif;
+	font-size: 100%;
+	line-height: 130%;
+	text-decoration: none;
+	font-weight: bold;
+	color: #777;
+	cursor: pointer;
+	text-align: center;
+	padding: 0 10px;
+}
+button {
+	width: auto;
+	overflow: visible;
+	height: 42px;
+    line-height: 28px;
+	border-color: #81bb07;
+}
+#buttonContinuar{
+	background-color: #81bb07;
+	border-color:#81bb07;
+}
+#buttonContinuar:hover{
+	background-color:#99cc33;
+	border-color:#99cc33;
+}
+.yCmsComponent a.ofno:before{
+	content:url(../images/remove.png);
+	color:#999;
+	text-decoration:underline;
+    line-height: 28px;
+}
+.yCmsComponent a.ofremove:before{
+	content:url(../images/remove.png);
+	-webkit-transition: all 0.4s ease;
+	-moz-transition   : all 0.4s ease;
+	transition   : all 0.4s ease;
+	line-height: 28px;
+}
+a.ofeditadress:before {
+    content: url(../images/editar.png);
+    padding: 5px;
+    -webkit-transition: all 0.4s ease;
+    -moz-transition   : all 0.4s ease;
+    transition   : all 0.4s ease;
+    line-height: 28px;
+}
+a.ofupdateprofile:before {
+    content: url(../images/editar.png);
+    padding: 5px;
+    -webkit-transition: all 0.4s ease;
+    -moz-transition   : all 0.4s ease;
+    transition   : all 0.4s ease;
+    line-height: 28px;
+}
+a.ofpassword:before{
+    content: url(../images/lock.gif);
+    padding: 5px;
+   -webkit-transition: all 0.4s ease;
+    -moz-transition   : all 0.4s ease;
+    transition   : all 0.4s ease;
+}
+a.ofenvelope:before{
+    content: url(../images/envelope.png);
+    padding: 5px;
+    -webkit-transition: all 0.4s ease;
+    -moz-transition   : all 0.4s ease;
+    transition   : all 0.4s ease;
+}
+a.ofeditadress:hover:before {
+    content: url(../images/editarw.png);
+    line-height: 28px;
+}
+a.button {
+	height: 32px;
+	line-height: 32px;
+	border-radius: 6px;
+}
+a.button:hover {
+	height: 32px;
+	line-height: 32px;
+	background-color:#D9012C;
+}
+button img, a.button img {
+	padding: 0;
+	border: none;
+	width: 16px;
+	height: 16px;
+	float: none;
+}
+a.ofdireccion:before{
+    content: url(../images/marker.png);
+    position: relative;
+    top:2px;
+    -webkit-transition: all 0.4s ease;
+    -moz-transition   : all 0.4s ease;
+    transition   : all 0.4s ease;
+}
+button.positive,
+button.negative {
+	height: 40px;
+}
+a.button.positive,
+a.button.negative {
+	height: 36px;
+	line-height: 36px;
+}
+button.positive,
+a.button.positive {
+	color: #fff;
+	background: #000;
+	font-weight: bold;
+	text-transform: uppercase;
+	border-color:#000;
+}
+div#finish {
+    padding-bottom: 20px;
+}
+button.negative,
+a.button.negative {
+	color: #000;
+	background: #fff;
+	border-color:#000;
+}
+button.block, a.button.block {
+	width: 100%;
+}
+button[disabled]{
+	opacity:0.5;
+	cursor:default;
+	text-transform: none;
+}
+button.link {
+	display:inline;
+	float:none;
+	background:none;
+	border:0;
+	padding:0;
+	margin:0;
+	font-weight:normal;
+	color:inherit !important;
+	opacity:inherit;
+}
+.btn-success {
+	background-color: #81bb07;
+	border-radius: 0px 0px 0px 0px;
+	-moz-border-radius: 0px 0px 0px 0px;
+	-webkit-border-radius: 0px 0px 0px 0px;
+	border: 0px solid #000000;
+}
+@media(min-width: 768px){
+	a.button.ofno {
+		width: 100%;
+		padding: 2px 0px 36px 0px;
+	}
+}
+@media (min-width: 1024px){
+	a.button.ofno {
+		margin-right: 28px;
+		width: 40%;
+		padding: 2px 0px 36px 0px;
+		margin-left: 20px;
+	}
+}
+@media (min-width: 1300px) {
+	a.button.ofno {
+		align-content: center;
+		margin-right: 55px;
+		width: 31%;
+		padding: 2px 0px 36px 0px;
+		margin-left: 41px;
+	}
+}
+@media(min-width: 1750px){
+a.button.ofno {
+	align-content: center;
+	margin-right: 70px;
+	width: 30%;
+	padding: 2px 0px 36px 0px;
+	margin-left: 23px;
+  }
+}
+a.btn-cancel-address-add {
+	float: right;
+}
